@@ -1,0 +1,161 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#banner {
+    width: 100%;
+    height: 65px;
+}
+#banner img {
+    width: 700px;
+    height: 100%;
+    padding-left: 50px;
+}
+
+#nav-header{
+    width: 100%;
+    height: 50px;
+    background-color: #fed014;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.navigation{
+    height: 100%;
+    white-space: nowrap;   
+}
+
+.navigation ul li{
+    list-style: none;
+    margin: auto 10px;
+}
+.menu-list li{
+    display: flex;
+}
+
+.menu-list li a{
+    margin: auto 0;
+}
+ul{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.menu-list{
+    display: flex;
+    height: 100%;
+}
+#nav-header .navigation ul li a{
+    text-decoration: none;
+    text-align: center;
+}
+.search{
+    margin: auto 30px;
+}
+.search input{
+    border-radius: 15px;
+    height: 20px;
+    padding: 0 5px;
+}
+
+#content{
+    display: flex;
+}
+
+.boder-nav-content{
+    background-color: rgb(223, 223, 223);
+    border : 1px groove;
+}
+
+.nav-content-left ul{
+    display: flex;
+    padding-inline-start: 0;
+}
+
+.nav-content-left ul li{
+    margin-left: 5px;
+    margin-right: 15px;
+    list-style: none;
+}
+h3{
+    margin-left: 5px;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+
+.review{
+    display: flex;
+    background-color: white;
+}
+.review-box{
+    flex: 1;
+    padding: 10px;
+}
+
+p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.content-center{
+    flex: 1;
+    margin: 5px;
+}
+.content-left{
+    flex: 1.5;
+    margin: 5px;
+}
+.content-right{
+    flex: 0.75;
+    margin: 5px;   
+}
+
+.time-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.time-box div{
+    width: 60px;
+    flex: 1;
+    border : 1px groove;
+    text-align: center;
+}
+
+.line1{
+    background-color: red;
+}
+.size{
+    height: 345px;
+}
+.review-content-center{
+    width: 100%;
+    height: 245px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.line-review-content-center{
+    display: flex;
+}
+
+.line-review-content-center div{
+    padding: 5px;
+}
+
+h2, hr{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link div{
+    margin: 15px;
+}
+.nav-link div img{
+    width: 100%;
+}
